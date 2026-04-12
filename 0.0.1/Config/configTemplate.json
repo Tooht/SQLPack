@@ -1,0 +1,209 @@
+{
+  "InUse": {
+    "ModuleDetails": {
+      "ApplicationName": "SQLPack",
+      "CurrentVersion": "0.0.1",
+      "Author": "Fernando.Almeida",
+      "Description": "A collection of tools and scripts for SQL Server database administration and development.",
+      "ReleaseDate": "2026-04-18",
+      "Contact": "spoc.sqlserver@axa.com",
+      "SupportedSQLVersions": [
+        "SQLServer2019",
+        "SQLServer2022",
+        "SQLServer2025"
+      ]
+    },
+    "Constants": {
+      "Boxheader": "._________________________indios___________________________________________________________________________.",
+      "BoxLine": "|                                                                                                    |",
+      "BoxFooter": "|____________________________________________________________________________________________________|",
+      "LogLevels": [
+        "Info",
+        "Warning",
+        "Error",
+        "Message",
+        "None"
+      ]
+    },
+    "SQLServer": {
+      "Instance": ".",
+      "DatabaseName": "master",
+      "QueryTimeOut": 0,
+      "MaxRecords": 100,
+      "TestConnectionQuery": "SELECT @@Servername as ServerName, @@Version AS Version, GETDATE() AS CurrentDateTime "
+    },
+    "LogFileConfig": {
+      "ActiveChannel": "True",
+      "FilePath": "C:\\Temp",
+      "FileName": "DBAPack_{date}.log",
+      "IncludeTimeStamp": "True",
+      "AvailableLevels": [
+        "Info",
+        "Warning",
+        "Error",
+        "Message",
+        "None"
+      ],
+      "DefaultLevel": "Message",
+      "OverrideExisting": "True"
+    },
+    "ConsoleLogConfig": {
+      "ActiveChannel": "True",
+      "IncludeTimeStamp": "True",
+      "AvailableLevels": [
+        "Info",
+        "Warning",
+        "Error",
+        "Message",
+        "None"
+      ],
+      "DefaultLevel": "Message",
+      "Layouts": {
+        "Info": {
+          "ForegroundColor": "Cyan"
+        },
+        "Warning": {
+          "ForegroundColor": "Black",
+          "BackgroundColor": "Yellow"
+        },
+        "Error": {
+          "ForegroundColor": "White",
+          "BackgroundColor": "Red"
+        },
+        "Message": {
+          "ForegroundColor": "White"
+        },
+        "None": {
+          "ForegroundColor": "White"
+        }
+      }
+    },
+    "WindowsEventLogConfig": {
+      "ActiveChannel": "True",
+      "LogName": "Application",
+      "Source": "MSSQLSERVER",
+      "IncludeTimeStamp": "True",
+      "AvailableLevels": [
+        "Information",
+        "Warning",
+        "Error"
+      ],
+      "DefaultLevel": "Warning"
+    },
+    "SQLErrorLogConfig": {
+      "ActiveChannel": "True",
+      "AvailableLevels": [
+        "Information",
+        "Warning",
+        "Error"
+      ],
+      "DefaultLevel": "Information",
+      "DefaultState": "1"
+    }
+  },
+  "Defaults": {
+
+    "ModuleDetails": {
+      "ApplicationName": "SQLPack",
+      "CurrentVersion": "0.0.1",
+      "Author": "Fernando.Almeida",
+      "Description": "A collection of tools and scripts for SQL Server database administration and development.",
+      "ReleaseDate": "2026-04-18",
+      "Contact": "spoc.sqlserver@axa.com",
+      "SupportedSQLVersions": [
+        "SQLServer2019",
+        "SQLServer2022",
+        "SQLServer2025"
+      ]
+    },
+    "Constants": {
+      "Boxheader": ".____________________________________________________________________________________________________.",
+      "BoxLine": "|                                                                                                    |",
+      "BoxFooter": "|____________________________________________________________________________________________________|",
+      "LogLevels": [
+        "Info",
+        "Warning",
+        "Error",
+        "Message",
+        "None"
+      ]
+    },
+    "SQLServer": {
+      "Instance": ".",
+      "DatabaseName": "master",
+      "QueryTimeOut": 0,
+      "MaxRecords": 100,
+      "TestConnectionQuery": "SELECT @@Servername as ServerName, @@Version AS Version, GETDATE() AS CurrentDateTime "
+    },
+    "LogFileConfig": {
+      "ActiveChannel": "True",
+      "FilePath": "C:\\Temp",
+      "FileName": "DBAPack_{date}.log",
+      "IncludeTimeStamp": "True",
+      "AvailableLevels": [
+        "Info",
+        "Warning",
+        "Error",
+        "Message",
+        "None"
+      ],
+      "DefaultLevel": "Message",
+      "OverrideExisting": "True"
+    },
+    "ConsoleLogConfig": {
+      "ActiveChannel": "True",
+      "IncludeTimeStamp": "True",
+      "AvailableLevels": [
+        "Info",
+        "Warning",
+        "Error",
+        "Message",
+        "None"
+      ],
+      "DefaultLevel": "Message",
+      "Layouts": {
+        "Info": {
+          "ForegroundColor": "Cyan"
+        },
+        "Warning": {
+          "ForegroundColor": "Black",
+          "BackgroundColor": "Yellow"
+        },
+        "Error": {
+          "ForegroundColor": "White",
+          "BackgroundColor": "Red"
+        },
+        "Message": {
+          "ForegroundColor": "White"
+        },
+        "None": {
+          "ForegroundColor": "White"
+        }
+      }
+    },
+    "WindowsEventLogConfig": {
+      "ActiveChannel": "True",
+      "LogName": "Application",
+      "Source": "MSSQLSERVER",
+      "IncludeTimeStamp": "True",
+      "AvailableLevels": [
+        "Information",
+        "Warning",
+        "Error"
+      ],
+      "DefaultLevel": "Warning"
+    },
+    "SQLErrorLogConfig": {
+      "ActiveChannel": "True",
+      "AvailableLevels": [
+        "Information",
+        "Warning",
+        "Error"
+      ],
+      "DefaultLevel": "Information",
+      "DefaultState": "1"
+    }
+  
+
+   }
+}
